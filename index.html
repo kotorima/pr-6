@@ -13,10 +13,7 @@
 
 <body>
     <div id="app">
-        <header>
-            <input type="text" v-model="value">
-            <button v-on:click="valueSend">SEARCH</button>
-        </header>
+        <movie-search></movie-search>
         <movie-show v-bind:ok="ok" v-bind:movielist="films"></movie-show>
     </div>
 
